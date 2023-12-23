@@ -1,0 +1,331 @@
+.container{
+    width: 100%;
+    /* background: rgb(211, 75, 26); */
+    
+    /* background: aqua; */
+    
+}
+.product-wrapper{
+   
+    /* margin: 10px; */
+    
+    /* min-width: 100%; */
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  
+    
+}
+
+
+@media screen and (max-width: 1200px){
+    .product-wrapper{
+        grid-template-columns: auto auto auto;
+
+    }
+}
+@media screen and (max-width: 900px){
+    .product-wrapper{
+        grid-template-columns: auto auto;
+
+    }
+}
+@media screen and (max-width: 500px){
+    .product-wrapper{
+        grid-template-columns: auto;
+
+    }
+}
+.product-cart{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+    
+}
+.item-details{
+    /* border: 2px solid red; */
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    height: 100%;
+}
+.item{
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.image{
+    max-width: 300px;
+    width: 100%;
+}
+.image > img{
+    background-color: rgb(220, 245, 224);
+}
+.product-name{
+    font-size: 10px;
+    font-weight: 600;
+    padding: 20px 0;
+    
+}
+.cat-price-wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.product-category{
+    font-size: 1rem;
+    /* background-color: antiquewhite; */
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.product-price{
+    font-size: 24px;
+}
+.search-input{
+    padding: 20px;
+    width: 80%;
+    margin-left: 9%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.buy-btn{
+    cursor: pointer;
+    text-decoration: none;
+}
+.apply{
+    color: aqua;
+}
+.apply:hover{
+    color: red;
+}
+
+
+/* Footer CSS */
+.footer_header{
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    /* position: fixed;
+    bottom: 0px; */
+    /* width: 100%; */
+}
+.footer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.footer-item{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    margin: auto;
+    
+}
+.item-1{
+    /* background: aqua; */
+    margin: 10px;
+
+}
+.footer-item img{
+    cursor: pointer;
+    margin: 10px;
+}
+.copyright{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* register form CSS */
+.login-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    min-height: 100vh;
+   
+}
+.login-input{
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    /* border: 1px solid gainsboro; */
+    margin: 10px;
+    text-align: center;
+    width: 90%;
+}
+.login-btn{
+    display: block;
+    padding: 10px;
+    width: 90%;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(13, 13, 241);
+    color: white;
+    transition: 0.3 all ease-in-out;
+    cursor: pointer;
+    
+}
+.login-btn:active{
+    transform: scale(0.95);
+}
+.logih-link{
+    text-decoration: none;
+}
+.login-card-container1{
+    padding-top: 10px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: aqua;
+    /* min-height: 100vh; */
+   font-size: 30px;
+   border-radius: 2px solid red;
+}
+.login-input1{
+    /* display: block; */
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    /* border: 1px solid gainsboro; */
+    margin: 10px;
+    text-align: center;
+    background: 2px solid red;
+}
+input[type=textarea]{
+    width: 80%;
+    margin: auto;
+    margin: 10px;
+}
+input {
+    width: auto;
+}
+.form-card{
+    background: red;
+    width: 80%;
+    max-width: 400px;
+}
+
+.edit{
+    background: aqua;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.edit:hover{
+    background: red;
+    color: black;
+}
+
+.dropdown-item{
+    display: flex;
+    font-size: 20px;
+}
+.select-item{
+    margin-left: 15px;
+
+}
+
+
+.botton-card{
+    display: flex;
+    margin: auto;
+    /* padding: 20px; */
+    /* background: aqua; */
+    flex-wrap: wrap;
+    
+
+}
+
+.signUp{
+    margin: auto;
+}
+/* apply-form-css */
+.apply-form-container{
+   
+   
+    padding: 10px;
+    text-align: left;
+    background: aqua;
+   
+
+}
+.form-card-apply{
+    /* width: 100%; */
+    padding: 10px;
+    margin-top: 15px;
+
+}
+.form-element{
+   
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    
+    
+}
+.apply-input{
+    width: 100%; 
+     padding: auto;
+    
+     /* border: 2px solid yellow;  */
+    margin-left: 10px; 
+    padding-left: 0px;
+    outline: none;
+    
+    
+}
+.form-element> input{
+   
+    border: none;
+    /* border-bottom: 1px solid black; */
+    font-size:25px;
+    /* background: red; */
+}
+
+
+
+/* job container CSS */
+
+.job-container{
+    background: aqua;
+
+}
+.job-element{
+    display: flex;
+    /* flex-wrap: wrap; */
+    font-size: 25px;
+    overflow-y: scroll;
+    padding: auto;
+    margin-bottom: 20px;
+
+}
+.image-application{
+    /* border: 2px solid red; */
+    width: 60px;
+    height: 60px;
+}
+.job-item{
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-bottom: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+}
+.item-application{
+    text-align: center;
+    align-items: center;
+    padding: auto;
+  
+}
