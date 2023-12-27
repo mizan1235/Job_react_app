@@ -28,7 +28,7 @@ const Home = () => {
   const [applyJobDetails,setApplyJobDetails]=useRecoilState(applyJobDetailsAtom)
   return (
     <div>
-        <Router>
+        <Router basename="/Job_react_app">
             <Routes>
              
             <Route path="/*" element={<Homecontent/>}/>
