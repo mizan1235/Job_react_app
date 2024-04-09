@@ -17,7 +17,7 @@ const AppliedJobUserCard = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://web-production-f7d9.up.railway.app/Mizan/get_applied_job', {
+        const response = await fetch('https://web-production-1ee0.up.railway.app/Mizan/get_applied_job', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -29,7 +29,7 @@ const AppliedJobUserCard = () => {
 
         // Fetch job details for each application concurrently
         const jobPromises = data?.applications.map(application =>
-          fetch('https://web-production-f7d9.up.railway.app/Mizan/get_job_by_id', {
+          fetch('https://web-production-1ee0.up.railway.app/Mizan/get_job_by_id', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -88,7 +88,7 @@ const AppliedJobUserCard = () => {
             <div className='job-item' onClick={(e) => {
               console.log(applications[index])
               // e.preventDefault()
-              fetch('https://web-production-f7d9.up.railway.app/Mizan/delete_application', {
+              fetch('https://web-production-1ee0.up.railway.app/Mizan/delete_application', {
                 method: "DELETE",
                 headers: {
                   'Content-Type': "application/json",

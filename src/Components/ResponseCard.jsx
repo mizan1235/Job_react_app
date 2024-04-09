@@ -6,7 +6,7 @@ const ResponseCard = () => {
     const [editItem,setEditItem]=useRecoilState(editItemAtom)
     const [applicationData,setApplicationData]=useState(null)
     useEffect(()=>{
-        fetch('https://web-production-f7d9.up.railway.app/Mizan/get_applications', {
+        fetch('https://web-production-1ee0.up.railway.app/Mizan/get_applications', {
             method: "POST",
             headers: {
               'Content-Type': "application/json",
@@ -90,7 +90,7 @@ const ResponseCard = () => {
                   
                   <div className='form-element'>
                     <h3 className='apply-input'> Resume : </h3>
-                    <a href={"https://web-production-f7d9.up.railway.app/media/resume/"+data?.resume}>view</a>
+                    <a href={"https://web-production-1ee0.up.railway.app/media/resume/"+data?.resume}>view</a>
 
                   </div>
 

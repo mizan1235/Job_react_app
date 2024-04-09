@@ -38,7 +38,7 @@ const ApplyJobCard = () => {
       resume:resumeRef.current.value
     }
    
-    fetch('https://web-production-f7d9.up.railway.app/Mizan/apply_job', {
+    fetch('https://web-production-1ee0.up.railway.app/Mizan/apply_job', {
           method: "POST",
           headers: {
             'Content-Type': "application/json",

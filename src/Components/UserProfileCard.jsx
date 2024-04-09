@@ -14,7 +14,7 @@ const UserProfileCard = () => {
       const phoneRef=useRef(null)
 
     useEffect(()=>{
-        fetch('https://web-production-f7d9.up.railway.app/Mizan/get_user', {
+        fetch('https://web-production-1ee0.up.railway.app/Mizan/get_user', {
       method: "POST",
       headers: {
         'Content-Type': "application/json",
@@ -45,7 +45,7 @@ const UserProfileCard = () => {
         new_user_name:usernameRef.current.value
 
       }
-      fetch('https://web-production-f7d9.up.railway.app/Mizan/update_user', {
+      fetch('https://web-production-1ee0.up.railway.app/Mizan/update_user', {
         method: "PUT",
         headers: {
           'Content-Type': "application/json",

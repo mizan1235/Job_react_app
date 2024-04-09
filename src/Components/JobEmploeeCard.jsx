@@ -19,7 +19,7 @@ const JobEmploeeCard = () => {
   }
 
   useEffect(()=>{
-    fetch('https://web-production-f7d9.up.railway.app/Mizan/get_emp_job',
+    fetch('https://web-production-1ee0.up.railway.app/Mizan/get_emp_job',
     {
       method:"POST",
       headers:{

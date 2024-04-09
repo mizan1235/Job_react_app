@@ -45,7 +45,7 @@ const Header = () => {
                 company_name:e.target.value
                 
               }
-              fetch('https://web-production-f7d9.up.railway.app/Mizan/get_job_comp',
+              fetch('https://web-production-1ee0.up.railway.app/Mizan/get_job_comp',
               {
                 method:"POST",
                 headers:{
@@ -95,7 +95,7 @@ const Header = () => {
                location:e.target.value
                
              }
-             fetch('https://web-production-f7d9.up.railway.app/Mizan/get_job_location',
+             fetch('https://web-production-1ee0.up.railway.app/Mizan/get_job_location',
              {
                method:"POST",
                headers:{

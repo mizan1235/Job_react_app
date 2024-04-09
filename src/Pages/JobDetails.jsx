@@ -15,7 +15,7 @@ const JobDetails = () => {
     const [applyJobDetails,setApplyJobDetails]=useRecoilState(applyJobDetailsAtom)
     const history =  useNavigate();
     useEffect(()=>{
-          fetch('https://web-production-f7d9.up.railway.app/Mizan/get_job', {
+          fetch('https://web-production-1ee0.up.railway.app/Mizan/get_job', {
             method: "GET",
                     headers: {
                       'Content-Type': "application/json",

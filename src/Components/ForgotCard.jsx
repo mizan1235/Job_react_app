@@ -24,7 +24,7 @@ const ForgotCard = () => {
         
       };
       
-      fetch('https://web-production-f7d9.up.railway.app/Mizan/create_user', {
+      fetch('https://web-production-1ee0.up.railway.app/Mizan/create_user', {
         method: "POST",
         headers: {
           'Content-Type': "application/json",

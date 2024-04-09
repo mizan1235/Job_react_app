@@ -25,7 +25,7 @@ const Employee_reg_card = () => {
       
     };
     
-    fetch('https://web-production-f7d9.up.railway.app/Mizan/create_employee', {
+    fetch('https://web-production-1ee0.up.railway.app/Mizan/create_employee', {
       method: "POST",
       headers: {
         'Content-Type': "application/json",

@@ -32,7 +32,7 @@ const EditItemCard = () => {
        
         
         console.log(data)
-        fetch('https://web-production-f7d9.up.railway.app/Mizan/update_job', {
+        fetch('https://web-production-1ee0.up.railway.app/Mizan/update_job', {
       method: "PUT",
       headers: {
         'Content-Type': "application/json",

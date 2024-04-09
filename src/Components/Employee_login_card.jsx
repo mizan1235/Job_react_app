@@ -20,7 +20,7 @@ const Employee_login_card = () => {
       username:usernameRef?.current?.value,
       password:passwordRef?.current?.value
     }
-    fetch('https://web-production-f7d9.up.railway.app/Mizan/login_employee',
+    fetch('https://web-production-1ee0.up.railway.app/Mizan/login_employee',
     {
       method:"POST",
       headers:{
